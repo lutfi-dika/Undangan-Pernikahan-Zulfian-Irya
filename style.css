@@ -753,6 +753,36 @@ section {
   color: var(--secondary-color);
 }
 
+.nav-link-2{
+  color: white;
+}
+.nav-link-2 {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  position: relative;
+} 
+
+.nav-link-2:hover {
+  color: var(--secondary-color);
+}
+
+.nav-link-2::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background: var(--secondary-color);
+  transition: width 0.3s ease;
+}
+
+.nav-link-2:hover::after {
+  width: 100%;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .nav-menu {
