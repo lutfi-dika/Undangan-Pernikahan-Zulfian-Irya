@@ -12,10 +12,11 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="png" href="LOGO.png" />
+    <link rel="stylesheet" href="udangan.css" />
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="navbar">
+    <!-- <nav class="navbar">
       <div class="nav-container">
         <div class="nav-logo">Z & I</div>
         <ul class="nav-menu">
@@ -29,6 +30,46 @@
           <span></span>
         </div>
       </div>
+    </nav> -->
+
+    <nav class="navbar">
+      <div class="nav-container">
+        <!-- Logo/Names -->
+        <div class="nav-logo">
+          <div class="heart-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+              />
+            </svg>
+          </div>
+          <span class="couple-names">Zulfian & Irya</span>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <div class="nav-menu">
+          <a href="#home" class="nav-link">Beranda</a>
+          <a href="#about" class="nav-link">Tentang Kami</a>
+          <a href="#details" class="nav-link">Detail Acara</a>
+          <a href="ucapan.pdf" class="nav-link" target="_blank">ucapan</a>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <div class="mobile-menu-toggle">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu">
+        <a href="#home" class="mobile-nav-link">Beranda</a>
+        <a href="#about" class="mobile-nav-link">Tentang Kami</a>
+        <a href="#details" class="mobile-nav-link">Detail Acara</a>
+
+        <a href="ucapan.pdf" class="mobile-nav-link" target="_blank">ucapan</a>
+      </div>
     </nav>
 
     <!-- Hero Section -->
@@ -40,7 +81,7 @@
             Bismillahirrahmanirrahim Maha Suci Allah yang telah menciptakan
             makhluk-Nya berpasang-pasangan. Dengan segala kerendahan hati dan
             rasa syukur, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dalam
-            acara pernikahan putra-putri kami:Zulfian Irya.S Yang akan
+            acara pernikahan putra-putri kami:Zulfian & Irya.S Yang akan
             dilangsungkan pada: 🗓️ Sabtu,28,juni 2025 📍 Kediaman Mempelai
             Wanita Kehadiran dan doa restu Anda merupakan kebahagiaan tersendiri
             bagi kami.
@@ -50,24 +91,6 @@
             <span class="date-day">Sabtu</span>
             <span class="date-number">28</span>
             <span class="date-month">juni 2025</span>
-          </div>
-          <div class="countdown" id="countdown">
-            <div class="countdown-item">
-              <span class="countdown-number" id="days">0</span>
-              <span class="countdown-label">Hari</span>
-            </div>
-            <div class="countdown-item">
-              <span class="countdown-number" id="hours">0</span>
-              <span class="countdown-label">Jam</span>
-            </div>
-            <div class="countdown-item">
-              <span class="countdown-number" id="minutes">0</span>
-              <span class="countdown-label">Menit</span>
-            </div>
-            <div class="countdown-item">
-              <span class="countdown-number" id="seconds">0</span>
-              <span class="countdown-label">Detik</span>
-            </div>
           </div>
         </div>
       </div>
@@ -87,7 +110,7 @@
         <div class="couple-info">
           <div class="bride">
             <div class="couple-photo">
-              <img src="ijus.jpg" alt="Zulfian" />
+              <img src="ijus2.jpg" alt="Zulfian" />
             </div>
             <h3>Julfian</h3>
             <p>
@@ -102,7 +125,7 @@
 
           <div class="groom">
             <div class="couple-photo">
-              <img src="irya.jpg" alt="David" />
+              <img src="irya2.jpg" alt="David" />
             </div>
             <h3>Irya.s</h3>
             <p>
@@ -224,147 +247,6 @@
       </div>
     </section>
 
-    <!-- Gallery -->
-    <!-- <section id="gallery" class="gallery">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Galeri Momen</h2>
-          <div class="section-subtitle">Koleksi foto prewedding kami</div>
-        </div>
-
-        <div class="gallery-grid">
-          <div class="gallery-item" onclick="openLightbox(0)">
-            <img
-              src="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Prewedding 1"
-            />
-            <div class="gallery-overlay">
-              <span class="gallery-icon">🔍</span>
-            </div>
-          </div>
-          <div class="gallery-item" onclick="openLightbox(1)">
-            <img
-              src="https://images.pexels.com/photos/1153370/pexels-photo-1153370.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Prewedding 2"
-            />
-            <div class="gallery-overlay">
-              <span class="gallery-icon">🔍</span>
-            </div>
-          </div>
-          <div class="gallery-item" onclick="openLightbox(2)">
-            <img
-              src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Prewedding 3"
-            />
-            <div class="gallery-overlay">
-              <span class="gallery-icon">🔍</span>
-            </div>
-          </div>
-          <div class="gallery-item" onclick="openLightbox(3)">
-            <img
-              src="https://images.pexels.com/photos/1444444/pexels-photo-1444444.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Prewedding 4"
-            />
-            <div class="gallery-overlay">
-              <span class="gallery-icon">🔍</span>
-            </div>
-          </div>
-          <div class="gallery-item" onclick="openLightbox(4)">
-            <img
-              src="https://images.pexels.com/photos/1444424/pexels-photo-1444424.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Prewedding 5"
-            />
-            <div class="gallery-overlay">
-              <span class="gallery-icon">🔍</span>
-            </div>
-          </div>
-          <div class="gallery-item" onclick="openLightbox(5)">
-            <img
-              src="https://images.pexels.com/photos/1444429/pexels-photo-1444429.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Prewedding 6"
-            />
-            <div class="gallery-overlay">
-              <span class="gallery-icon">🔍</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- RSVP Section -->
-    <!-- <section id="rsvp" class="rsvp">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">RSVP</h2>
-          <div class="section-subtitle">Konfirmasi kehadiran Anda</div>
-        </div>
-
-        <div class="rsvp-content">
-          <div class="rsvp-text">
-            <p>
-              Kehadiran Anda sangat berarti bagi kami. Silakan konfirmasi
-              kehadiran Anda sebelum tanggal 20 Mei 2024.
-            </p>
-          </div>
-
-          <form class="rsvp-form" id="rsvpForm">
-            <div class="form-group">
-              <label for="name">Nama Lengkap</label>
-              <input type="text" id="name" name="name" required />
-            </div>
-
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-
-            <div class="form-group">
-              <label for="phone">No. Telepon</label>
-              <input type="tel" id="phone" name="phone" required />
-            </div>
-
-            <div class="form-group">
-              <label for="attendance">Konfirmasi Kehadiran</label>
-              <select id="attendance" name="attendance" required>
-                <option value="">Pilih opsi</option>
-                <option value="hadir">Hadir</option>
-                <option value="tidak-hadir">Tidak Hadir</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="guests">Jumlah Tamu</label>
-              <select id="guests" name="guests" required>
-                <option value="">Pilih jumlah</option>
-                <option value="1">1 orang</option>
-                <option value="2">2 orang</option>
-                <option value="3">3 orang</option>
-                <option value="4">4 orang</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="message">Pesan untuk Mempelai (Opsional)</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-                placeholder="Tulis pesan atau doa untuk kami..."
-              ></textarea>
-            </div>
-
-            <button type="submit" class="rsvp-btn">Kirim RSVP</button>
-          </form>
-
-          <div class="rsvp-success" id="rsvpSuccess">
-            <div class="success-icon">✅</div>
-            <h3>Terima kasih!</h3>
-            <p>RSVP Anda telah berhasil dikirim.</p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
@@ -376,9 +258,6 @@
           <div class="footer-date">
             <p>28 juni 2025</p>
           </div>
-          <li>
-              <a href="ucapan.pdf" class="nav-link-2" target="_blank">ucapan</a>
-            </li>
         </div>
       </div>
     </footer>
@@ -396,5 +275,6 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="udangan.js"></script>
   </body>
 </html>
